@@ -16,17 +16,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Clicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://zealous-noyce-d7b2db.netlify.app/"));
         startActivity(intent);
     }
 
     public void onButton2Clicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://stupefied-engelbart-62d0f8.netlify.app/"));
         startActivity(intent);
     }
 
     public void onButton3Clicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://wizardly-torvalds-82919b.netlify.app/"));
         startActivity(intent);
     }
 }
