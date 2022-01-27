@@ -6,30 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onButton1Clicked"
-        android:text="런지"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="67dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onButton2Clicked"
-        android:text="스쿼트"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="182dp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButton1Clicked"
+            android:text="런지" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onButton3Clicked"
-        android:text="팔벌려 높이뛰기"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="292dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButton2Clicked"
+            android:text="스쿼트" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButton3Clicked"
+            android:text="팔벌려 높이뛰기" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
