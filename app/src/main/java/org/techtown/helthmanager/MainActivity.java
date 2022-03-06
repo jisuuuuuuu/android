@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton1Clicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://zealous-noyce-d7b2db.netlify.app/"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://127.0.0.1:5500/index1.html"));
         startActivity(intent);
     }
 
