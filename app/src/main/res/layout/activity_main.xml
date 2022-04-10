@@ -9,27 +9,104 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button1"
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onButton1Clicked"
-            android:text="런지" />
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Helth Manager"
+            android:textColor="#3F51B5"
+            android:textSize="34sp" />
 
-        <Button
-            android:id="@+id/button2"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="382dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:text="자세를 확인하고 싶은 운동을 선택하세요."
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="109dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="16dp"
+                android:onClick="onButton1Clicked"
+                android:text="런지" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="105dp"
+                android:layout_height="83dp"
+                android:onClick="onButton2Clicked"
+                android:text="스쿼트" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="147dp"
+                android:layout_height="84dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="onButton3Clicked"
+                android:text="팔벌려 높이뛰기" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="onButton4Clicked"
+                android:text="런지 영상"
+                app:strokeColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="onButton5Clicked"
+                android:text="스쿼트 영상" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="onButton6Clicked"
+                android:text="높이 뛰기영상" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onButton2Clicked"
-            android:text="스쿼트" />
+            android:layout_marginStart="12dp"
+            android:text="녹색 버튼 선택시 해당 운동의 강의 영상링크로 이동됩니다."
+            android:textSize="16sp" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onButton3Clicked"
-            android:text="팔벌려 높이뛰기" />
+            android:text="오늘한 운동을 기록해보세요." />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
